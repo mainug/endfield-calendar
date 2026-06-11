@@ -363,8 +363,8 @@ export default function VersionCalendar() {
                             key={event.id}
                             className="absolute"
                             style={{ top, height: ROW_HEIGHT, left: 0, right: 0 }}
-                            initial={{ opacity: 0, y: 4 }}
-                            animate={{ opacity: 1, y: 0 }}
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
                             transition={{ delay: idx * 0.05 + 0.1, duration: 0.3 }}
                           >
                             <EventBar
