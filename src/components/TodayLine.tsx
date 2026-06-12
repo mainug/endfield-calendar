@@ -31,7 +31,7 @@ export default function TodayLine({ today, calendarStart, calendarEnd, dayWidth,
         {/* date label */}
         <div
           className="px-1.5 py-0.5 text-black font-black rounded-sm flex-shrink-0"
-          style={{ background: '#f59e0b', fontSize: 9, whiteSpace: 'nowrap' }}
+          style={{ background: '#f59e0b', fontSize: 9, whiteSpace: 'nowrap', marginTop: -20 }}
         >
           TODAY {format(today, 'MM.dd')}
         </div>
